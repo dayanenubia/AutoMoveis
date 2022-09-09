@@ -7,7 +7,7 @@
 div{
     font-family: Arial;
     background-color: #111;
-    margin: auto;
+    margin: 10px;
     border-radius: 4px;
     padding: 10px 20px;
 }
@@ -24,7 +24,21 @@ p{
     color: #b2b2b2;
 }
 
+button{
+    color:#332200;
+    background-color:  #febe01;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
 a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+}
+
+button:hover{
     background-color: #332200;
-    color: #111;
+    color:white;
 }
